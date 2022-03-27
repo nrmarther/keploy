@@ -94,7 +94,10 @@ ok      test-app-url-shortener  6.268s  coverage: 80.3% of statements in ./...
 All of these can be visualised here - http://localhost:8081/testlist
 
 ### Integration with native Go test framework
-You just need 3 lines of code in your unit test file and that's it!!🔥🔥🔥
+
+Only three lines of code are required for your unit tests! just use the code below in your \[file_name\]\_test.go file.
+This should generate test cases for your code and can return the coverage of the generated unit tests.
+Import keploy and create a function to utilize it and let keploy do the rest!!🔥🔥🔥
 ```go
 
 import (
